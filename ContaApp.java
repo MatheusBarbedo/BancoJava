@@ -28,9 +28,6 @@ public class ContaApp {
         	System.out.print("\nEscolha uma das opções: ");
         	opcoes = lerInteiro.nextInt();		
 	
-        	//Professora ao informar o numero da conta o indice ta pegando a partir de 0, 1, 2, ...
-        	//Todos os metodos foram testados e estão funcionando assim. Ex: Transferencia conta 0 para conta 1
-        	
         	switch (opcoes) {
         	case 1:
         		cadastrarConta(conta);
